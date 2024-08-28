@@ -84,5 +84,19 @@ public static int[] random(int len){
         else {
             System.out.println("not equal");
         }
+
+        // LETS TALK ABOUT VARARGS (variable arguments)
+        //in we use ... instead of [] in the argument of a method so that we can directly
+        // send values to and separate  it by using comas and it automatically creates that array
+
+        System.out.println(Arrays.toString(varargs("zebra","Sahil")));
+
+    }
+
+
+    public static String[] varargs(String... a ){
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+    return a;
     }
 }
