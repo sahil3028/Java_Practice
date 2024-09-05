@@ -36,7 +36,7 @@ public class multidimentionalArray {
         }
 
 
-        //we have to use deeptostrig insteaad of to string
+        //we have to use deeptostrig instead of tostring
         System.out.println("another wayy\n");
         System.out.println(Arrays.deepToString(array));
         System.out.println("here making a array shorter ");
