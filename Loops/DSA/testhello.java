@@ -1,5 +1,3 @@
-public class testhello {
-    void main(){
-        System.out.println("working!!");
-    }
+void main() {
+    System.out.println("working!!");
 }
